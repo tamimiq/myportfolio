@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400);
+
+#container {
+    background-color: white;
+}
+
+#logo{
+
+    background-color: #479099;
+    padding-top: 100px;
+    /* padding-bottom: 50px; */
+
+  text-align: center;
+
+    
+}
+ 
+
+#bio{
+    padding-top: 50px;
+    background-color: #F3EEE6;
+    font-size: 20;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+
+}
+
+#navbar {
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px, 10%;
+
+    background-color: #24252a;
+    font-family: "Montserrat", "sans-sarif";
+    font-weight: 500;
+    font-size: 16px;
+    color: #edf0f1;
+    text-decoration: none;
+    
+
+    
+}
+
+#foot{
+    background-color: grey;
+    text-align: center;
+}
+
+.tamimimage{
+    border-radius: 50%;
+}
+
+/* #logo .logo1{
+    margin-left: auto;
+    margin-right: auto;
+} */
+
+.logo-nav{
+    cursor: pointer;
+    padding: 10px;
+}
+
+li, a, button {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    color: #edf0f1;
+    text-decoration: none;
+    
+}
+
+.nav_links{
+    list-style: none;
+
+}
+
+.nav_links li{
+
+    display: inline-block;
+    padding: 0px 20px;
+}
+
+.nav_links li a {
+    transition: all 0.3s ease 0s;
+}
+
+.nav_links li a:hover {
+    color: #0088a9;
+}
+
+button {
+    padding: 9px 25px;
+    background-color: rgba(71,144,153,1);
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+}
+
+button:hover{
+    background-color: rgba(0,136,169,0.87);
+}
+
+#social img{
+
+    
+ padding-top: 30px;  
+ padding-left: 30px;
+ padding-right: 30px; 
+ width: auto;
+ height: 50px;
+}
+
+#social{
+    /* padding-top: 90px; */
+    background-color: #24252a;
+}
+
+#social nav{
+
+    display: flex;
+    padding: 30px 300px;
+    align-items: center;
+     justify-content: space-evenly;
+}
+
+
